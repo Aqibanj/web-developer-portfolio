@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-tittle{
     color: #181818;
@@ -17,12 +18,14 @@ font-weight: 800;
 }
 .btn-primary{
     border-radius: 5px;
+    
 background: #FD6E0A;
 border: 0px;
 color: white;
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
+
 
 }
 
@@ -40,4 +43,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: var(--dark-02, #474747); 
+}
+/* header related style */
+.header-class{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:  30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
